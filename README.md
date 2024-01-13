@@ -1,0 +1,11 @@
+1) Version control is a system that records changes to files over time so that you can recall specific versions later. It allows multiple people to work on the same project at the same time without interfering with each other. It also helps you track changes, revert to previous versions, and collaborate with others effectively.
+
+2) Git is a version control system that is used to track changes in source code during software development. GitHub is a web-based platform that provides hosting for software development version control using Git. While Git is the tool that manages the version control system, GitHub is a service that hosts Git repositories and provides additional features like issue tracking, project management, and code review.
+
+3) Three other alternatives to GitHub are Bitbucket, GitLab, and SourceForge. Bitbucket is a web-based hosting service for projects that use Git or Mercurial revision control systems. GitLab is a web-based Git repository manager that provides a wiki, issue tracking, and CI/CD pipeline features, using an open-source license. SourceForge is a web-based service that offers software developers a centralized online location to control and manage free and open-source software projects.
+
+4) Git fetch downloads objects and references from another repository, but it doesn't integrate changes into the current working branch. It is useful for reviewing the changes before merging them into your local branch. Git pull, on the other hand, not only downloads new data from the remote repository but also directly integrates it into your current working branch.
+
+5) Git rebase is a command used to reapply commits on top of another base tip. It is used to maintain a linear project history, as opposed to git merge which adds a new commit to the project history. The command for git rebase is "git rebase <base>" where <base> is the branch you want to rebase onto.
+
+6) Git cherry-pick is a command used to apply a commit from another branch onto the current branch. It is useful when you want to take a single commit from one branch and apply it to another. The command for git cherry-pick is "git cherry-pick <commit>" where <commit> is the SHA-1 hash of the commit you want to pick.
